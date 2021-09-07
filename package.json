@@ -1,0 +1,28 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000r\u0000_\u0000t\u0000s\u0000_\u0000s\u0000t\u0000e\u0000-\u0000g\u0000r\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psayeed1990/pr_ts_ste-gri.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psayeed1990/pr_ts_ste-gri/issues"
+  },
+  "homepage": "https://github.com/psayeed1990/pr_ts_ste-gri#readme"
+}
